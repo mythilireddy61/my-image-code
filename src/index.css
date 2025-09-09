@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Telangana Medical Council Design System */
 
 @layer base {
   :root {
@@ -17,11 +15,19 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Medical Council Brand Colors */
+    --medical-teal: 174 70% 41%;
+    --medical-teal-light: 174 70% 51%;
+    --medical-teal-dark: 174 70% 31%;
+    --medical-orange: 25 95% 53%;
+    --medical-orange-light: 25 95% 63%;
+    --medical-orange-dark: 25 95% 43%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --primary: 174 70% 41%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 25 95% 53%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -34,7 +40,7 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 174 70% 41%;
 
     --radius: 0.5rem;
 
